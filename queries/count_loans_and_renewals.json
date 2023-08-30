@@ -21,7 +21,9 @@
             "type": "text",
             "required": false,
             "controlled.options": [
-                "Main Library"
+                "Main Library",
+                "Annex",
+                "Storage"
             ],
             "controlled.allowOtherValues": true
         },
@@ -30,6 +32,11 @@
             "displayName": "Temporary location filter",
             "type": "text",
             "required": false
+            "controlled.options": [
+                "Main Library",
+                "Annex",
+                "Storage"
+            ],
         },
         {
             "name": "items_effective_location_filter",
