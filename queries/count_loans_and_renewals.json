@@ -31,12 +31,12 @@
             "name": "items_temporary_location_filter",
             "displayName": "Temporary location filter",
             "type": "text",
-            "required": false
+            "required": false,
             "controlled.options": [
                 "Main Library",
                 "Annex",
                 "Storage"
-            ],
+            ]
         },
         {
             "name": "items_effective_location_filter",
