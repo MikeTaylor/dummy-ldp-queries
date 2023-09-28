@@ -5,7 +5,7 @@ CREATE FUNCTION get_users(
     end_date date
 )
 RETURNS TABLE(
-    id text,
+    id uuid,
     barcode text)
 AS $$
 SELECT id, barcode
