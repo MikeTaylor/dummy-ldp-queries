@@ -5,10 +5,10 @@ CREATE FUNCTION get_users(
     end_date date
 )
 RETURNS TABLE(
-    id uuid,
+    id text,
     barcode text)
 AS $$
-SELECT id, barcode
+SELECT id::text, barcode
 
     FROM user_users
     WHERE user_users.created_date >= start_date AND user_users.created_date <= end_date
