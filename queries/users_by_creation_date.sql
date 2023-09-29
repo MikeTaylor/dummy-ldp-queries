@@ -9,7 +9,7 @@ RETURNS TABLE(
     barcode text,
     created_date date)
 AS $$
-SELECT id::text, barcode
+SELECT id::text, barcode, created_date
 
     FROM user_users
     WHERE user_users.created_date >= start_date AND user_users.created_date <= end_date
