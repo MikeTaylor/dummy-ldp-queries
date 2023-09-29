@@ -6,7 +6,8 @@ CREATE FUNCTION get_users(
 )
 RETURNS TABLE(
     id text,
-    barcode text)
+    barcode text,
+    created_date date)
 AS $$
 SELECT id::text, barcode
 
