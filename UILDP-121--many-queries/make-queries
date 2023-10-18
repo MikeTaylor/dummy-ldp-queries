@@ -1,4 +1,4 @@
-for i in `iota 2 23`; do
+for i in `iota 23`; do
     cp query.sql query$i.sql
     sed "s/List/$i. List/" query.json > query$i.json
 done
