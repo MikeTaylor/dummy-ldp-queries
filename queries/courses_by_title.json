@@ -1,5 +1,5 @@
 {
-    "displayName": "List courses sorted by course title",
+    "displayName": "Courses filtered by student count",
     "description": "Created by Mike for demo of 23 October 2023",
     "instructions": "Choose a minimum and/or maximum number of students, if required.",
     "parameters": [
