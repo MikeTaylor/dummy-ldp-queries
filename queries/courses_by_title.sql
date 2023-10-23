@@ -9,7 +9,7 @@ RETURNS TABLE(
     course_number text,
     name text,
     description text,
-    number_of_students integer
+    number_of_students integer,
     section_name text)
 AS $$
 SELECT id::text, course_number, name, description, number_of_students, section_name
