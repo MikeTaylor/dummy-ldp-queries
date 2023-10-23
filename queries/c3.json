@@ -1,0 +1,13 @@
+{
+    "displayName": "List courses sorted by course title",
+    "description": "Created by Mike for demo of 23 October 2023",
+    "instructions": "Choose a minimum number of students, if required.",
+    "parameters": [
+        {
+            "name": "minimum_number_of_students",
+            "displayName": "Minimum Number of students",
+            "type": "number",
+            "required": false
+        }
+    ]
+}
