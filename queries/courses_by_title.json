@@ -14,18 +14,6 @@
             "displayName": "Maximum Number of students",
             "type": "number",
             "required": false
-        },
-        {
-            "name": "sort_order",
-            "displayName": "Order results by",
-            "type": "text",
-            "required": false,
-            "controlled.options": [
-              "name",
-              "course_number",
-              "description",
-              "number_of_students"
-            ]
         }
     ]
 }
