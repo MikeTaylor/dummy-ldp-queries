@@ -17,7 +17,7 @@ SELECT id::text, course_number, name, description, number_of_students, section_n
     FROM course_courses
     WHERE course_courses.number_of_students >= minimum_number_of_students
       AND course_courses.number_of_students <= maximum_number_of_students
-    ORDER BY sort_order
+    ORDER BY course_courses.name
 $$
 LANGUAGE SQL
 STABLE
