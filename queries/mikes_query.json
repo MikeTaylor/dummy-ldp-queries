@@ -42,6 +42,7 @@
             "name": "items_effective_location_filter",
             "displayName": "Effective location filter",
             "type": "text",
+            "default": "Annex",
             "required": false
         },
         {
