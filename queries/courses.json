@@ -7,7 +7,7 @@
             "name": "minimum_number_of_students",
             "displayName": "Minimum Number of students",
             "type": "number",
-            "default" 10,
+            "default": 10,
             "required": false
         },
         {
