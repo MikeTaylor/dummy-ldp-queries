@@ -49,7 +49,8 @@
             "name": "institution_filter",
             "displayName": "Institution permanent location filter",
             "type": "text",
-            "required": false
+            "required": false,
+            "disabled": true
         },
         {
             "name": "campus_filter",
